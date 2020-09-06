@@ -8,8 +8,8 @@ provider "azurerm" {
   # Whilst version is optional, we /strongly recommend/ using it to pin the version of the Provider being used
   version = "=1.44.0"
 
-  subscription_id = "535a22bc-653b-4d3e-bb2c-281f000a4a06"
-  tenant_id       = "80a3bc8a-6d35-41fc-88a3-fbefdb06743f"
+  #subscription_id = "535a22bc-653b-4d3e-bb2c-281f000a4a06"
+  #tenant_id       = "80a3bc8a-6d35-41fc-88a3-fbefdb06743f"
 }
 ##variables
 variable "prefix" {
