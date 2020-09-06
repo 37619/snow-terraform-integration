@@ -1,16 +1,13 @@
-# provider "azurerm" {
-#   # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
-#   version = "=2.20.0"
-#   features {}
-# }
-
 provider "azurerm" {
-  # Whilst version is optional, we /strongly recommend/ using it to pin the version of the Provider being used
-  version = "=1.44.0"
-
-  #subscription_id = "535a22bc-653b-4d3e-bb2c-281f000a4a06"
-  #tenant_id       = "80a3bc8a-6d35-41fc-88a3-fbefdb06743f"
+  # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
+  version = "=2.20.0"
+  features {}
 }
+
+# provider "azurerm" {
+#   # Whilst version is optional, we /strongly recommend/ using it to pin the version of the Provider being used
+#   version = "=1.44.0"
+# }
 ##variables
 variable "prefix" {
   default = "ankita-poc"
